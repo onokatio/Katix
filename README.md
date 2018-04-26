@@ -3,9 +3,9 @@
 The userland distribution.
 
 
+```
 You can use ...
 
-```
 - another x window server
 - prefer desktop environment
 - gnome keyring for security
@@ -17,9 +17,10 @@ You can use ...
 - secure crypto storage
 - ...
 - And install any package support by archlinux
-```
 
 **WITHOUT SUDO.**
+```
+
 
 ## Install Compornent
 
@@ -36,3 +37,9 @@ You can use ...
 - INFOPATH
 - XDG_DATA_DIRS
 - LOCPATH
+
+# Install
+
+```
+$ ./Katix ~/mylocal
+```

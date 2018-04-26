@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -eu
+
+pushd $PWD
+	cd 
+	./configure --prefix=$MYLOCAL --with-internal-glib
+	make -j4
+	make install
+	cd ..
+popd
